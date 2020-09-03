@@ -9,5 +9,4 @@ Problem: make a sudoku checker using the methods developed in previous labs:
   * check board: returns true if the board does not have any sudoku rules violations {public} (uses extract sub array and none true from week 2, and grid of multiples from week 2)
   * set location: takes `x`,`y`, and `value`. returns true if valid {public}
   * get possible values: takes `x`,`y` return array of integers with possible values by trying to set each one then returning the state to the empty value {public}
-  * 
-  
+
