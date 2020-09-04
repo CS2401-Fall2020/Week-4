@@ -48,10 +48,10 @@ Each test case should be explained in a comment preceeding the implementation.
 (150 points total)
 
 * `Sudoku.java`
- * 10 points for the constructor
- * 50 points for `checkBoard`
- * 15 points for `setLocation`
- * 25 points for `getPossibleValues()`
+  * 10 points for the constructor
+  * 50 points for `checkBoard`
+  * 15 points for `setLocation`
+  * 25 points for `getPossibleValues()`
 * `tester.java`
- * 20 points (1 points for each case, 1 for the description, 1 for the implementation
+  * 20 points (1 points for each case, 1 for the description, 1 for the implementation
 * 10 points each for the implementations of `extractAndTest.extractSubArray`, `searchAndPrint.gridOfMultiples`, and `extractAndTest.noneTrue`
