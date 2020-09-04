@@ -34,5 +34,24 @@ Methods:
   * `x` or `y` being out of bounds
   * `board[x][y]` already being set (i.e. had a non-negative value)
   * making the assingment violates the rules (i.e. `checkBoard()` returns `false` when it is assigned)
-* `public getPossibleValues()`: takes `x`,`y` return array of integers with possible values by trying to set each one then returning the state to the empty value {public}
+* `public getPossibleValues(int x, int y)` -- Returns a list of integers that if set at this location would not provide an error. 
+This can be implemented in multiple ways, but the final state of the board should be the same at the end of this method as at the start. 
+The size of the output array will between 0 and 9, and will depend on the number of valid numbers. 
+(Examples from class will help in the construction of the output array.)
 
+## `tester.java`
+
+You will need to design 10 test cases, each test case will likely use multiple methods since they are intertwined. 
+Each test case should be explained in a comment preceeding the implementation. 
+
+# Grading
+(150 points total)
+
+* `Sudoku.java`
+ * 10 points for the constructor
+ * 50 points for `checkBoard`
+ * 15 points for `setLocation`
+ * 25 points for `getPossibleValues()`
+* `tester.java`
+ * 20 points (1 points for each case, 1 for the description, 1 for the implementation
+* 10 points each for the implementations of `extractAndTest.extractSubArray`, `searchAndPrint.gridOfMultiples`, and `extractAndTest.noneTrue`
